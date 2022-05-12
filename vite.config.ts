@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/SCP-Foundation-Web/',
+  build: {
+    assetsDir: './dist',
+  },
+  alias: {}
 })
