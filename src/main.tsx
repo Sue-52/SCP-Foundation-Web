@@ -6,9 +6,4 @@ import App from './pages/App'
 // 引入样式清除
 import 'normalize.css'
 
-ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById('root'),
-)
+ReactDOM.render(<App />, document.getElementById('root'))

@@ -5,7 +5,7 @@ import { resolve } from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/SCP-Foundation-Web/',
+  // base: '/SCP-Foundation-Web/',
   build: {
     assetsDir: './dist',
   },

@@ -1,11 +1,19 @@
 /** @format */
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import HomePage from './HomePage'
+// 引入组件
+import Layout from './Layouts'
 
 // Layout 页面
 function App() {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route path="" element={<HomePage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
