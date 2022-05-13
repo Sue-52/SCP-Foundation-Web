@@ -5,7 +5,7 @@ import {HomePageStyle} from './index.style'
 function HomePage() {
   return (
     <HomePageStyle>
-      <h1>Home Page</h1>
+      <b>Home Container Page</b>
     </HomePageStyle>
   )
 }

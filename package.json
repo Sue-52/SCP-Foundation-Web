@@ -2,7 +2,7 @@
   "name": "scp-foundation-web",
   "author": "Yakumo Ink",
   "version": "0.0.0",
-  "homepage": "SCP-Foundation-Web/",
+  "homepage": "/SCP-Foundation-Web/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
