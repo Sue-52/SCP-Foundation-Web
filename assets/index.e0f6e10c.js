@@ -70,7 +70,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */var Jh=X.exports,yf=60103;Tr.Fragment=60107;if(typeof Symbol=="function"&&Symbol.for){var ss=Symbol.for;yf=ss("react.element"),Tr.Fragment=ss("react.fragment")}var qh=Jh.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,bh=Object.prototype.hasOwnProperty,em={key:!0,ref:!0,__self:!0,__source:!0};function gf(e,t,n){var r,l={},o=null,i=null;n!==void 0&&(o=""+n),t.key!==void 0&&(o=""+t.key),t.ref!==void 0&&(i=t.ref);for(r in t)bh.call(t,r)&&!em.hasOwnProperty(r)&&(l[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps,t)l[r]===void 0&&(l[r]=t[r]);return{$$typeof:yf,type:e,key:o,ref:i,props:l,_owner:qh.current}}Tr.jsx=gf;Tr.jsxs=gf;to.exports=Tr;const ue=to.exports.jsx,cs=to.exports.jsxs,tm=to.exports.Fragment;function nm(){return ue(Zh,{children:ue("h1",{children:"Home Page"})})}const rm=Nr.div`
+ */var Jh=X.exports,yf=60103;Tr.Fragment=60107;if(typeof Symbol=="function"&&Symbol.for){var ss=Symbol.for;yf=ss("react.element"),Tr.Fragment=ss("react.fragment")}var qh=Jh.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,bh=Object.prototype.hasOwnProperty,em={key:!0,ref:!0,__self:!0,__source:!0};function gf(e,t,n){var r,l={},o=null,i=null;n!==void 0&&(o=""+n),t.key!==void 0&&(o=""+t.key),t.ref!==void 0&&(i=t.ref);for(r in t)bh.call(t,r)&&!em.hasOwnProperty(r)&&(l[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps,t)l[r]===void 0&&(l[r]=t[r]);return{$$typeof:yf,type:e,key:o,ref:i,props:l,_owner:qh.current}}Tr.jsx=gf;Tr.jsxs=gf;to.exports=Tr;const ue=to.exports.jsx,cs=to.exports.jsxs,tm=to.exports.Fragment;function nm(){return ue(Zh,{children:ue("b",{children:"Home Container Page"})})}const rm=Nr.div`
   width: 100%;
   height: 550px;
   padding:63px 0px;
@@ -100,4 +100,4 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
   z-index: 1;
 `;function am(){return ue(um,{children:ue("b",{children:"TopNavBar"})})}const sm=Nr.div`
   margin-left:250px;
-`;function cm(){return cs(tm,{children:[ue(im,{}),cs(sm,{children:[ue(am,{}),ue(Xp,{}),ue(lm,{})]})]})}function fm(){return ue(Jp,{children:ue(Zp,{children:ue(yi,{path:"/",element:ue(cm,{}),children:ue(yi,{path:"",element:ue(nm,{})})})})})}xp.render(ue(fm,{}),document.getElementById("root"));
+`;function cm(){return cs(tm,{children:[ue(im,{}),cs(sm,{children:[ue(am,{}),ue(Xp,{}),ue(lm,{})]})]})}function fm(){return ue(Jp,{children:ue(Zp,{children:ue(yi,{path:"/SCP-Foundation-Web",element:ue(cm,{}),children:ue(yi,{path:"",element:ue(nm,{})})})})})}xp.render(ue(fm,{}),document.getElementById("root"));
